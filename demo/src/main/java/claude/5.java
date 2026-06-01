@@ -1,5 +1,6 @@
+package claude;
 
-class Solution {
+class Solution5 {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> result = new ArrayList<>();
         
@@ -49,4 +50,3 @@ class Solution {
     }
 }
 
-erro

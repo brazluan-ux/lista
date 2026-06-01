@@ -1,4 +1,7 @@
-class Solution {
+
+package gemini;
+
+class Solution15 {
     public java.util.List<Integer> findSubstring(String s, String[] words) {
         java.util.List<Integer> res = new java.util.ArrayList<>();
         if (s == null || s.length() == 0 || words == null || words.length == 0) {
@@ -49,5 +52,3 @@ class Solution {
         return res;
     }
 }
-
-certo

@@ -1,5 +1,5 @@
-```java
-class Solution {
+
+class Solution3 {
     public boolean isMatch(String s, String p) {
         int m = s.length();
         int n = p.length();
@@ -31,6 +31,3 @@ class Solution {
         return dp[m][n];
     }
 }
-```
-
-certo

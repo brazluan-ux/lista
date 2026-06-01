@@ -1,4 +1,6 @@
-class Solution {
+package deep seek;
+
+class Solution9 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) return null;
         return merge(lists, 0, lists.length - 1);
@@ -26,4 +28,4 @@ class Solution {
         tail.next = (l1 != null) ? l1 : l2;
         return dummy.next;
     }
-}certo
+}

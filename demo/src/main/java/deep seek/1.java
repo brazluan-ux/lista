@@ -1,4 +1,7 @@
-class Solution {
+
+package deep seek;
+
+class Solution6 {
     public int reverse(int x) {
         int rev = 0;
         while (x != 0) {
@@ -15,4 +18,3 @@ class Solution {
         return rev;
     }
 }
-certo

@@ -1,4 +1,6 @@
-class Solution {
+package gpt;
+
+class Solution19 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) return null;
 
@@ -34,4 +36,4 @@ class Solution {
         tail.next = (a != null) ? a : b;
         return dummy.next;
     }
-}certo
+}

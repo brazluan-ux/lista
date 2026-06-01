@@ -1,4 +1,6 @@
-class Solution {
+package gemini;
+
+class Solution13 {
     public boolean isMatch(String s, String p) {
         if (s == null || p == null) {
             return false;
@@ -29,4 +31,4 @@ class Solution {
         
         return dp[m][n];
     }
-}certo
+}

@@ -1,9 +1,6 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+package gpt;
 
-class Solution {
+class Solution20 {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();
         if (s == null || words == null || words.length == 0) return res;
@@ -59,4 +56,3 @@ class Solution {
     }
 }
 
-certo

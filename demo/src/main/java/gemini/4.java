@@ -1,4 +1,7 @@
-class Solution {
+package gemini;
+
+
+class Solution14 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
@@ -36,4 +39,4 @@ class Solution {
         }
         return dummy.next;
     }
-}certo
+}

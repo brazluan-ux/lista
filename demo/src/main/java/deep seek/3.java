@@ -1,4 +1,6 @@
-class Solution {
+package deep seek;
+
+class Solution8 {
     public boolean isMatch(String s, String p) {
         int m = s.length();
         int n = p.length();
@@ -23,4 +25,4 @@ class Solution {
         }
         return dp[m][n];
     }
-}certo
+}

@@ -1,4 +1,7 @@
-class Solution {
+package gpt;
+
+
+class Solution17 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] A = nums1, B = nums2;
         int m = A.length, n = B.length;
@@ -35,4 +38,4 @@ class Solution {
 
         return 0.0;
     }
-}certo
+}

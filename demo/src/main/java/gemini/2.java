@@ -1,4 +1,6 @@
-class Solution {
+package gemini;
+
+class Solution12 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] A = nums1;
         int[] B = nums2;
@@ -34,4 +36,4 @@ class Solution {
         }
         return 0.0;
     }
-}certo
+}

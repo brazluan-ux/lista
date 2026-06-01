@@ -1,4 +1,6 @@
-class Solution {
+package gpt;
+
+class Solution18 {
     public boolean isMatch(String s, String p) {
         int m = s.length(), n = p.length();
         boolean[][] dp = new boolean[m + 1][n + 1];
@@ -26,4 +28,4 @@ class Solution {
         }
         return dp[m][n];
     }
-}certo
+}

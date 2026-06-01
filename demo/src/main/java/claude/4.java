@@ -1,5 +1,6 @@
-```java
-class Solution {
+package claude;
+
+class Solution4 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
@@ -48,4 +49,3 @@ class Solution {
         return dummy.next;
     }
 }
-``` certo
