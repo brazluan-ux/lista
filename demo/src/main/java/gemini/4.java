@@ -1,5 +1,7 @@
 package gemini;
 
+import common.ListNode;
+
 
 class Solution14 {
     public ListNode mergeKLists(ListNode[] lists) {

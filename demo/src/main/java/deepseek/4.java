@@ -1,4 +1,6 @@
-package deep seek;
+package deepseek;
+
+import common.ListNode;
 
 class Solution9 {
     public ListNode mergeKLists(ListNode[] lists) {

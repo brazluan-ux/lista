@@ -1,5 +1,4 @@
-
-package deep seek;
+package deepseek;
 
 class Solution6 {
     public int reverse(int x) {

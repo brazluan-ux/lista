@@ -1,4 +1,9 @@
-package deep seek;
+package deepseek;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 
 class Solution10 {
     public List<Integer> findSubstring(String s, String[] words) {
@@ -39,4 +44,3 @@ class Solution10 {
         return result;
     }
 }
-

@@ -1,5 +1,10 @@
 package gpt;
 
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+
 class Solution20 {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();

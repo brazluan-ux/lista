@@ -1,4 +1,4 @@
-package deep seek;
+package deepseek;
 
 class Solution7 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

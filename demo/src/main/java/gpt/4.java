@@ -1,5 +1,7 @@
 package gpt;
 
+import common.ListNode;
+
 class Solution19 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) return null;

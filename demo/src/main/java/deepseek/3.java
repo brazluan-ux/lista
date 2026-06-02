@@ -1,4 +1,4 @@
-package deep seek;
+package deepseek;
 
 class Solution8 {
     public boolean isMatch(String s, String p) {
